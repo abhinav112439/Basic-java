@@ -1,0 +1,21 @@
+import java.util.*;
+public class check31 {
+    public static void main(String[] args)/*throws IndexOutOfBoundsException*/ {// String args[]=new String[3]; System.out.println(args[2]); args[2]=3;
+       try{ Scanner sc=new Scanner(System.in);
+        args=new String[3]; // args[]>>object reference
+       String s=sc.nextLine();
+       args[0]=sc.nextLine(); //commandline arguments
+      // args[1]=sc.nextLine();
+      // String s1=new String("abcd");
+       // int a=sc.nextInt();
+        for(int x=0;x<args.length;x++){
+            System.out.println("Hello");
+        }
+        System.out.println(args[2]);
+        System.out.println(args[3]);
+       }
+       catch( Exception e){
+System.out.println("not valid");
+       }
+    }
+}
